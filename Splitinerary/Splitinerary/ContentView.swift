@@ -6,19 +6,20 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 struct ContentView: View {
+    let store: StoreOf<MapFeature>
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        RoutesMapView(store: store)
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView(
+        store: Store(initialState: MapFeature.State()) {
+            MapFeature()
+        }
+    )
 }

@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 @main
 struct SplitineraryApp: App {
+    static let store = Store(initialState: MapFeature.State()) {
+        MapFeature()
+    }
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(store: Self.store)
         }
     }
 }
