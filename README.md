@@ -1,4 +1,4 @@
-# Splitinerary
+# 🧳 Splitinerary
 
 > 함께 떠나지만, 모든 순간을 함께할 필요는 없으니까.
 
@@ -6,14 +6,15 @@
 
 같이 즐길 일정은 함께 계획하고, 잠시 따로 보내고 싶은 시간에는 각자의 동선을 확인할 수 있습니다. 흩어진 뒤에는 다시 합류할 장소와 일정까지 한눈에 관리할 수 있습니다.
 
-## Demo
+## 📱 Demo
 
 
-https://github.com/user-attachments/assets/ec43bcca-920a-4cdb-9f51-9c93466e4077
+| iPhone 18 pro   |
+| :-------------: |
+|https://github.com/user-attachments/assets/ec43bcca-920a-4cdb-9f51-9c93466e4077|
 
 
-
-## Key Features
+## 🔑 Key Features
 
 ### 함께 만드는 여행 일정
 
